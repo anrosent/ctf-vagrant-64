@@ -84,9 +84,9 @@ sudo python setup.py install
 sudo sudo apt-get -y install stow
 cd /home/vagrant
 rm .bashrc
-git clone https://github.com/thebarbershopper/dotfiles
+git clone https://github.com/anrosent/dotfiles
 cd dotfiles
-./install.sh
+./init.sh
 
 # Install Angr
 cd /home/vagrant
